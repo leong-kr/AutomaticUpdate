@@ -46,35 +46,19 @@
           }
         }
       },
-      "Mono.Cecil/0.11.2": {
+      "Mono.Cecil/0.9.6.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Mono.Cecil.Mdb.dll": {
-            "related": ".pdb"
-          },
-          "lib/netstandard2.0/Mono.Cecil.Pdb.dll": {
-            "related": ".pdb"
-          },
-          "lib/netstandard2.0/Mono.Cecil.Rocks.dll": {
-            "related": ".pdb"
-          },
-          "lib/netstandard2.0/Mono.Cecil.dll": {
-            "related": ".Mdb.pdb;.pdb;.Pdb.pdb;.Rocks.pdb"
-          }
+          "lib/net45/Mono.Cecil.Mdb.dll": {},
+          "lib/net45/Mono.Cecil.Pdb.dll": {},
+          "lib/net45/Mono.Cecil.Rocks.dll": {},
+          "lib/net45/Mono.Cecil.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Mono.Cecil.Mdb.dll": {
-            "related": ".pdb"
-          },
-          "lib/netstandard2.0/Mono.Cecil.Pdb.dll": {
-            "related": ".pdb"
-          },
-          "lib/netstandard2.0/Mono.Cecil.Rocks.dll": {
-            "related": ".pdb"
-          },
-          "lib/netstandard2.0/Mono.Cecil.dll": {
-            "related": ".Mdb.pdb;.pdb;.Pdb.pdb;.Rocks.pdb"
-          }
+          "lib/net45/Mono.Cecil.Mdb.dll": {},
+          "lib/net45/Mono.Cecil.Pdb.dll": {},
+          "lib/net45/Mono.Cecil.Rocks.dll": {},
+          "lib/net45/Mono.Cecil.dll": {}
         }
       },
       "NETStandard.Library/1.6.1": {
@@ -312,15 +296,42 @@
           "lib/netstandard1.3/SharpCompress.dll": {}
         }
       },
-      "squirrel.windows/2.0.1": {
+      "Splat/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/Net45/Splat.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/Net45/Splat.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "squirrel.windows/1.9.0": {
         "type": "package",
         "dependencies": {
           "DeltaCompressionDotNet": "[1.1.0, 2.0.0)",
-          "Mono.Cecil": "0.11.2",
-          "SharpCompress": "[0.17.1]"
+          "Mono.Cecil": "0.9.6.1",
+          "SharpCompress": "0.17.1",
+          "Splat": "1.6.2"
         },
-        "build": {
-          "build/squirrel.windows.props": {}
+        "compile": {
+          "lib/Net45/NuGet.Squirrel.dll": {
+            "related": ".pdb"
+          },
+          "lib/Net45/Squirrel.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/Net45/NuGet.Squirrel.dll": {
+            "related": ".pdb"
+          },
+          "lib/Net45/Squirrel.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "System.AppContext/4.3.0": {
@@ -1439,30 +1450,31 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "Mono.Cecil/0.11.2": {
-      "sha512": "hZNAnXKQsOs/SZMFtT/e82/nA/iLgkeDy+sHD8xix4f0m9/3G0RNZplE1QHB+0n8QXq54jLqR/IPgVOkLapkyg==",
+    "Mono.Cecil/0.9.6.1": {
+      "sha512": "yMsurNaOxxKIjyW9pEB+tRrR1S3DFnN1+iBgKvYvXG8kW0Y6yknJeMAe/tl3+P78/2C6304TgF7aVqpqXgEQ9Q==",
       "type": "package",
-      "path": "mono.cecil/0.11.2",
+      "path": "mono.cecil/0.9.6.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "lib/net20/Mono.Cecil.Mdb.dll",
+        "lib/net20/Mono.Cecil.Pdb.dll",
+        "lib/net20/Mono.Cecil.dll",
+        "lib/net35/Mono.Cecil.Mdb.dll",
+        "lib/net35/Mono.Cecil.Pdb.dll",
+        "lib/net35/Mono.Cecil.Rocks.dll",
+        "lib/net35/Mono.Cecil.dll",
         "lib/net40/Mono.Cecil.Mdb.dll",
-        "lib/net40/Mono.Cecil.Mdb.pdb",
         "lib/net40/Mono.Cecil.Pdb.dll",
-        "lib/net40/Mono.Cecil.Pdb.pdb",
         "lib/net40/Mono.Cecil.Rocks.dll",
-        "lib/net40/Mono.Cecil.Rocks.pdb",
         "lib/net40/Mono.Cecil.dll",
-        "lib/net40/Mono.Cecil.pdb",
-        "lib/netstandard2.0/Mono.Cecil.Mdb.dll",
-        "lib/netstandard2.0/Mono.Cecil.Mdb.pdb",
-        "lib/netstandard2.0/Mono.Cecil.Pdb.dll",
-        "lib/netstandard2.0/Mono.Cecil.Pdb.pdb",
-        "lib/netstandard2.0/Mono.Cecil.Rocks.dll",
-        "lib/netstandard2.0/Mono.Cecil.Rocks.pdb",
-        "lib/netstandard2.0/Mono.Cecil.dll",
-        "lib/netstandard2.0/Mono.Cecil.pdb",
-        "mono.cecil.0.11.2.nupkg.sha512",
+        "lib/net45/Mono.Cecil.Mdb.dll",
+        "lib/net45/Mono.Cecil.Pdb.dll",
+        "lib/net45/Mono.Cecil.Rocks.dll",
+        "lib/net45/Mono.Cecil.dll",
+        "lib/sl5/Mono.Cecil.Rocks.dll",
+        "lib/sl5/Mono.Cecil.dll",
+        "mono.cecil.0.9.6.1.nupkg.sha512",
         "mono.cecil.nuspec"
       ]
     },
@@ -1734,20 +1746,54 @@
         "sharpcompress.nuspec"
       ]
     },
-    "squirrel.windows/2.0.1": {
-      "sha512": "CanEyRsXkIFylR2ZUH48EIst+2+a6dtjWhCYfPTA8J4Ssr1POJzbuKvnxarnRHQsDgPE1LjHsrJB3idFWaf14A==",
+    "Splat/1.6.2": {
+      "sha512": "DeH0MxPU+D4JchkIDPYG4vUT+hsWs9S41cFle0/4K5EJMXWurx5DzAkj2366DfK14/XKNhsu6tCl4dZXJ3CD4w==",
       "type": "package",
-      "path": "squirrel.windows/2.0.1",
+      "path": "splat/1.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoMac/Splat.dll",
+        "lib/MonoMac/Splat.dll.mdb",
+        "lib/Net45/Splat.dll",
+        "lib/Net45/Splat.pdb",
+        "lib/NetCore45/Splat.dll",
+        "lib/NetCore45/Splat.pdb",
+        "lib/NetCore45/Splat.pri",
+        "lib/Portable-Win81+Wpa81/Splat.dll",
+        "lib/Portable-Win81+Wpa81/Splat.pdb",
+        "lib/Portable-Win81+Wpa81/Splat.pri",
+        "lib/Portable-net45+win+wpa81+wp80/Splat.dll",
+        "lib/Xamarin.Mac10/Splat-XamarinMac.csproj.FilesWrittenAbsolute.txt",
+        "lib/Xamarin.Mac10/Splat.dll",
+        "lib/Xamarin.Mac10/Splat.dll.mdb",
+        "lib/Xamarin.iOS10/Splat.dll",
+        "lib/Xamarin.iOS10/Splat.dll.mdb",
+        "lib/monoandroid/Splat.dll",
+        "lib/monoandroid/Splat.dll.mdb",
+        "lib/monotouch/Splat.dll",
+        "lib/monotouch/Splat.dll.mdb",
+        "lib/wp8/Splat.dll",
+        "lib/wp8/Splat.pdb",
+        "splat.1.6.2.nupkg.sha512",
+        "splat.nuspec"
+      ]
+    },
+    "squirrel.windows/1.9.0": {
+      "sha512": "1xOe9lgQX7u+AV19n7vTjRXn45fZ6rQ5pMSe6q54Nfe9sWHUikMz5d3Mc15T0Gw/9hVausR8BLIMVsp170DH/Q==",
+      "type": "package",
+      "path": "squirrel.windows/1.9.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "build/squirrel.windows.props",
+        "build/Squirrel.props",
+        "build/Squirrel.targets",
         "lib/Net45/NuGet.Squirrel.dll",
         "lib/Net45/NuGet.Squirrel.pdb",
         "lib/Net45/Squirrel.dll",
         "lib/Net45/Squirrel.pdb",
-        "squirrel.windows.2.0.1.nupkg.sha512",
+        "squirrel.windows.1.9.0.nupkg.sha512",
         "squirrel.windows.nuspec",
         "tools/7z.dll",
         "tools/7z.exe",
@@ -4742,7 +4788,7 @@
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "NuGet.CommandLine >= 6.3.1",
-      "squirrel.windows >= 2.0.1"
+      "squirrel.windows >= 1.9.0"
     ]
   },
   "packageFolders": {
@@ -4792,7 +4838,7 @@
           },
           "squirrel.windows": {
             "target": "Package",
-            "version": "[2.0.1, )"
+            "version": "[1.9.0, )"
           }
         },
         "imports": [
@@ -4825,6 +4871,36 @@
       "warningLevel": 1,
       "message": "Package 'DeltaCompressionDotNet 1.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
       "libraryId": "DeltaCompressionDotNet",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Mono.Cecil 0.9.6.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Mono.Cecil",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Splat 1.6.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Splat",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'squirrel.windows 1.9.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "squirrel.windows",
       "targetGraphs": [
         "net6.0-windows7.0"
       ]
