@@ -11,6 +11,9 @@ C:\Users\cadadmin\source\repos\AutoUpdate\AutoUpdate\bin\Release\net6.0-windows\
 C:\Users\cadadmin\source\repos\AutoUpdate\AutoUpdate\bin\Release\net6.0-windows\Mono.Cecil.Rocks.dll
 C:\Users\cadadmin\source\repos\AutoUpdate\AutoUpdate\bin\Release\net6.0-windows\Mono.Cecil.dll
 C:\Users\cadadmin\source\repos\AutoUpdate\AutoUpdate\bin\Release\net6.0-windows\SharpCompress.dll
+C:\Users\cadadmin\source\repos\AutoUpdate\AutoUpdate\bin\Release\net6.0-windows\Splat.dll
+C:\Users\cadadmin\source\repos\AutoUpdate\AutoUpdate\bin\Release\net6.0-windows\NuGet.Squirrel.dll
+C:\Users\cadadmin\source\repos\AutoUpdate\AutoUpdate\bin\Release\net6.0-windows\Squirrel.dll
 C:\Users\cadadmin\source\repos\AutoUpdate\AutoUpdate\obj\Release\net6.0-windows\AutoUpdate.csproj.AssemblyReference.cache
 C:\Users\cadadmin\source\repos\AutoUpdate\AutoUpdate\obj\Release\net6.0-windows\MainWindow.g.cs
 C:\Users\cadadmin\source\repos\AutoUpdate\AutoUpdate\obj\Release\net6.0-windows\App.g.cs
@@ -28,6 +31,3 @@ C:\Users\cadadmin\source\repos\AutoUpdate\AutoUpdate\obj\Release\net6.0-windows\
 C:\Users\cadadmin\source\repos\AutoUpdate\AutoUpdate\obj\Release\net6.0-windows\AutoUpdate.pdb
 C:\Users\cadadmin\source\repos\AutoUpdate\AutoUpdate\obj\Release\net6.0-windows\AutoUpdate.genruntimeconfig.cache
 C:\Users\cadadmin\source\repos\AutoUpdate\AutoUpdate\obj\Release\net6.0-windows\ref\AutoUpdate.dll
-C:\Users\cadadmin\source\repos\AutoUpdate\AutoUpdate\bin\Release\net6.0-windows\Splat.dll
-C:\Users\cadadmin\source\repos\AutoUpdate\AutoUpdate\bin\Release\net6.0-windows\NuGet.Squirrel.dll
-C:\Users\cadadmin\source\repos\AutoUpdate\AutoUpdate\bin\Release\net6.0-windows\Squirrel.dll
