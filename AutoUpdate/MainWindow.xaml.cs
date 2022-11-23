@@ -33,7 +33,7 @@ namespace AutoUpdate
         private async void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
             manager = await UpdateManager
-                .GitHubUpdateManager(@"https://github.com/leong-kr/AutomaticUpdate.git");
+                .GitHubUpdateManager(@"https://github.com/leong-kr/AutomaticUpdate");
 
             CurrentVersionTextBox.Text = manager.CurrentlyInstalledVersion().ToString();
         }
