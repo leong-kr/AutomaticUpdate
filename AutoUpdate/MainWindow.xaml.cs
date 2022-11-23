@@ -21,7 +21,7 @@ namespace AutoUpdate
     /// </summary>
     public partial class MainWindow : Window
     {
-        UpdateManager manager;
+        UpdateManager manager = new UpdateManager(null);
 
         public MainWindow()
         {
