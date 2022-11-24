@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "AutoUpdate/1.0.1": {
+      "AutoUpdate/1.0.2": {
         "dependencies": {
           "NuGet.CommandLine": "6.3.1",
           "squirrel.windows": "1.9.0"
@@ -758,7 +758,7 @@
     }
   },
   "libraries": {
-    "AutoUpdate/1.0.1": {
+    "AutoUpdate/1.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
